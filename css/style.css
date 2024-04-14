@@ -110,8 +110,9 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/Bg\ fon\ uchun.jpg);
+  background-image: url(../images/fonuchun.jpg);
   /* filter: opacity(0.8); */
+  backface-visibility: visible;
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -209,7 +210,7 @@ a:focus {
   top: 0;
   left: 0;
   background-color: black;
-  background-color: rgba(72, 85, 254, 0.95);
+  background-color: rgba(94, 94, 94, 0.95);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -383,6 +384,7 @@ a:focus {
   width: 100%;
   border: 10px solid #1a1a19;
   border-radius: 100%;
+  object-fit: cover;
 }
 
 .slider_section .slider_container .slick-active .img-box {

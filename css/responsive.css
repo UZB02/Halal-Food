@@ -101,7 +101,11 @@
 
 }
 
-@media (max-width: 376px) {}
+@media (max-width: 376px) {
+  .news_section .box .img-box img{
+    height: 400px;
+  }
+}
 
 @media (min-width: 1200px) {
   .container {

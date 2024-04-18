@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+}
+section .container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+section .container .card{
+    display: flex;
+    gap: 5px;
+    width: 33%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 1px 1px gainsboro;
+}
+
+section .container .card .left{
+    width: 60%;
+}
+
+section .container .card .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+section .container .card .right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    /* text-align: end; */
+    /* background-color: red; */
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+   
+}
+
+@media (max-width: 576px) {
+  
+}
+
+@media (max-width: 480px) {
+     .container{
+        width: 100%;
+    }
+        section .container .card {
+            width: 100%;
+          
+        }
+                section .container .card .left img {
+                    width: 100%;
+                }
+                                section .container .card .left {
+                                    width: 50%;
+                                }
+                                section .container .card .left h1 {
+                                    font-size: 20px;
+                                }
+}
+
+@media (max-width: 420px) {
+.container {
+        width: 100%;
+    }
+
+    section .container .card {
+        width: 100%;
+
+    }
+
+    section .container .card .left img {
+        width: 100%;
+    }
+
+    section .container .card .left {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .container {
+            width: 100%;
+        }
+    
+        section .container .card {
+            width: 100%;
+    
+        }
+    
+        section .container .card .left img {
+            width: 100%;
+        }
+    
+        section .container .card .left {
+            width: 50%;
+        }
+                 section .container .card .left h1 {
+                     font-size: 20px;
+                 }
+   
+}
+
+@media (min-width: 1200px) {
+}

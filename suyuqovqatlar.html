@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyuq Ovqatlar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/suyuqOvqatlar.css">
+</head>
+<body>
+  
+        <!-- header section strats -->
+        <header class="header_section" style="background-color: black;">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container" style="display: flex; align-items: center;">
+                <a class="navbar-brand" href="index.html"
+                    style="display: flex; align-items: center; gap: 10px;">
+                    <img src="/images/Logo.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <span>
+                        HALL FOOD
+                    </span>
+                </a>
+                    <div class="" id="">
+                        <div class="custom_menu-btn" style="display: flex;">
+                            <button onclick="openNav()" style="transform: translateY(20px) translateX(-20px); cursor: pointer;">
+                                <img src="images/menu.png" alt="">
+                            </button>
+                        </div>
+                        <div id="myNav" class="overlay">
+                            <div class="overlay-content">
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About</a>
+                                <a href="blog.html">Blog</a>
+                                <a href="testimonial.html">Testimonial</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+        <section>
+            <h1 style="text-align: center;">Suyuq ovqatlar</h1>
+            <div class="container">
+                <!-- <div class="card">
+                    <div class="left">
+                        <img src="/images/Mastava 1.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <h1>Mastava</h1>
+                        <h2>우동우유크리</h2>
+                        <h3>10.000</h3>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+
+      <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- slick  slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+  <script>
+    const container = document.querySelector(".container");
+    const data=[
+        {
+            name:"Mastava",
+            price:"10.000",
+            image:"images/Mastava 1.jpg",
+            koresName:`주추바라`
+        },
+        {
+            name:"Chuchvara",
+            price:"9.000",
+            image:"images/Chuchvara1.jpg",
+            koresName: `주추바라`
+        },
+        {
+            name:"Uyg'ur Lag'mon",
+            price:"10.000",
+            image:"images/uygurlagmon.png",
+            koresName: `우동우유크리`
+        },
+        {
+            name:" Ilik sho’rva",
+            price:"9.000",
+            image:"images/iliksho'rva.png",
+            koresName:`골수조르바`
+        }
+    ] 
+
+    for (let i = 0; i < data.length; i++) {
+        container.innerHTML += `
+            <div class="card">
+                <div class="left">
+                    <img src="${data[i].image}" alt="">
+                </div>
+                <div class="right">
+                    <h1>${data[i].name}</h1>
+                    <h2>${data[i].koresName}</h2>
+                    <h3>${data[i].price}</h3>
+                </div>
+            </div>
+        `
+    }
+  </script>
+</body>
+</html>

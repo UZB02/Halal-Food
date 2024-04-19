@@ -53,6 +53,15 @@ section .container .card .right{
     border-top-left-radius: 0;
     color: #fff;
 }
+section .container .card .right h1{
+    font-size: 26px;
+}
+section .container .card .right h2{
+    font-size: 20px;
+}
+section .container .card .right h3{
+    font-size: 26px;
+}
 
 @media (max-width: 1200px) {}
 

@@ -624,7 +624,8 @@ a:focus {
   -webkit-filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.3));
           filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.3));
   border-radius: 45px;
-  height: 500px;
+  height: 400px;
+  /* object-fit: cover; */
 }
 
 .news_section .box .detail-box {

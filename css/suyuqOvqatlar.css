@@ -8,6 +8,7 @@
     margin: 0 auto;
 }
 .title h1{
+    font-size: 60px;
 font-family: "bodoni svtytwo sc itc tt book", sans-serif;
 }
 section{
@@ -54,6 +55,10 @@ section .container .card .right{
 @media (max-width: 1200px) {}
 
 @media (max-width: 1120px) {
+    .title{
+            font-size: 26px;
+            font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+        }
         .container {
                 width: 100%;
                 justify-content: space-between;
@@ -157,6 +162,10 @@ section .container .card .right{
 }
 
 @media (max-width: 576px) {
+    .title h1 {
+            font-size: 40px;
+            font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+        }
     .container {
             width: 100%;
             justify-content: space-between;
@@ -193,6 +202,10 @@ section .container .card .right{
 }
 
 @media (max-width: 480px) {
+    .title h1 {
+            font-size: 40px;
+            font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+        }
     .container {
             width: 90%;
             justify-content: center;
@@ -228,6 +241,10 @@ section .container .card .right{
 }
 
 @media (max-width: 420px) {
+    .title h1 {
+            font-size: 40px;
+            font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+        }
     .container {
             width: 90%;
             justify-content: center;
@@ -261,6 +278,10 @@ section .container .card .right{
 }
 
 @media (max-width: 376px) {
+    .title h1 {
+            font-size: 40px;
+            font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+        }
     .container {
             width: 90%;
             justify-content: center;

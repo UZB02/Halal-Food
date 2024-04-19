@@ -7,13 +7,16 @@
     width: 1200px;
     margin: 0 auto;
 }
+.title h1{
+font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+}
 section{
     width: 100%;
 }
 section .container {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px 0;
@@ -28,7 +31,7 @@ section .container .card{
 }
 
 section .container .card .left{
-    width: 60%;
+    width: 40%;
 }
 
 section .container .card .left img{
@@ -41,67 +44,219 @@ section .container .card .left img{
 }
 
 section .container .card .right{
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-    /* text-align: end; */
-    /* background-color: red; */
 }
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+        .container {
+                width: 100%;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+        
+            section .container .card {
+                width: 40%;
+        
+            }
+        
+            section .container .card .left img {
+                width: 100%;
+            }
+        
+            section .container .card .left {
+                width: 50%;
+            }
+        
+        
+            section .container .card .right h1 {
+                font-size: 25px;
+            }
+        
+            section .container .card .right h2 {
+                font-size: 20px;
+            }
+        
+            section .container .card .right h3 {
+                font-size: 16px;
+            }
+}
 
 @media (max-width: 991px) {
+    .container {
+            width: 100%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    
+        section .container .card {
+            width: 40%;
+    
+        }
+    
+        section .container .card .left img {
+            width: 100%;
+        }
+    
+        section .container .card .left {
+            width: 50%;
+        }
+    
+    
+        section .container .card .right h1 {
+            font-size: 25px;
+        }
+    
+        section .container .card .right h2 {
+            font-size: 20px;
+        }
+    
+        section .container .card .right h3 {
+            font-size: 16px;
+        }
 }
 
 @media (max-width: 767px) {
+        .container {
+                width: 100%;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+        
+            section .container .card {
+                width: 40%;
+        
+            }
+        
+            section .container .card .left img {
+                width: 100%;
+            }
+        
+            section .container .card .left {
+                width: 50%;
+            }
+        
+        
+            section .container .card .right h1 {
+                font-size: 25px;
+            }
+        
+            section .container .card .right h2 {
+                font-size: 20px;
+            }
+        
+            section .container .card .right h3 {
+                font-size: 16px;
+            }
    
 }
 
 @media (max-width: 576px) {
+    .container {
+            width: 100%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+    
+        section .container .card {
+            width: 40%;
+    
+        }
+    
+        section .container .card .left img {
+            width: 100%;
+        }
+    
+        section .container .card .left {
+            width: 50%;
+        }
+    
+    
+        section .container .card .right h1 {
+            font-size: 16px;
+        }
+    
+        section .container .card .right h2 {
+            font-size: 13px;
+        }
+    
+        section .container .card .right h3 {
+            font-size: 10px;
+        }
   
 }
 
 @media (max-width: 480px) {
-     .container{
-        width: 100%;
-    }
+    .container {
+            width: 90%;
+            justify-content: center;
+        }
+    
         section .container .card {
             width: 100%;
-          
+    
         }
-                section .container .card .left img {
-                    width: 100%;
-                }
-                                section .container .card .left {
-                                    width: 50%;
-                                }
-                                section .container .card .left h1 {
-                                    font-size: 20px;
-                                }
+    
+        section .container .card .left img {
+            width: 100%;
+        }
+    
+        section .container .card .left {
+            width: 60%;
+        }
+                /* section .container .card .right{
+                    align-items: flex-end;
+                } */
+    
+        section .container .card .right h1 {
+            font-size: 26px;
+        }
+    
+        section .container .card .right h2 {
+            font-size: 23px;
+        }
+    
+        section .container .card .right h3 {
+            font-size: 20px;
+        }
 }
 
 @media (max-width: 420px) {
-.container {
-        width: 90%;
-        justify-content: center;
-    }
-
-    section .container .card {
-        width: 90%;
-
-    }
-
-    section .container .card .left img {
-        width: 100%;
-    }
-
-    section .container .card .left {
-        width: 50%;
-    }
+    .container {
+            width: 90%;
+            justify-content: center;
+        }
+    
+        section .container .card {
+            width: 100%;
+    
+        }
+    
+        section .container .card .left img {
+            width: 100%;
+        }
+    
+        section .container .card .left {
+            width: 50%;
+        }
+    
+        section .container .card .right h1 {
+            font-size: 26px;
+        }
+    
+        section .container .card .right h2 {
+            font-size: 16px;
+        }
+    
+        section .container .card .right h3 {
+            font-size: 15px;
+        }
 
 }
 

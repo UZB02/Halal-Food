@@ -126,6 +126,34 @@ a:focus {
 .header_section {
   padding: 15px 0;
 }
+.nav_location{
+  color: #fff;
+  fill: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 10px;
+  position: fixed;
+  z-index: 9999;
+  top: 200px;
+  /* left: 10px; */
+  right: 10px;
+}
+
+.nav_location .nav_location_icon{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center; 
+  /* background-color: red; */
+}
+.nav_location .nav_location_icon .info_div{
+background-color: #0c0c0c8b;
+padding: 3px 20px;
+border-radius: 10px;
+display: none;
+}
 
 .custom_nav-container {
   -webkit-box-pack: justify;
@@ -806,5 +834,8 @@ a:focus {
 
 .footer_section p a {
   color: inherit;
+}
+.active_info {
+  display: block !important; 
 }
 /*# sourceMappingURL=style.css.map */

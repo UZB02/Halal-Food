@@ -61,3 +61,8 @@ $(".slider_container").slick({
         }
     ]
 });
+
+function viwInfo (){
+    console.log(66);
+    document.querySelector(".info_div").classList.toggle("active_info");
+}

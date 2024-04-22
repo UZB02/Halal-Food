@@ -175,17 +175,17 @@ section .container .card .right h3{
             }
         
             section .container .card .right h1 {
-                font-size: 12px;
+                font-size: 10px;
             }
         
             section .container .card .right h2 {
-                font-size: 12px;
+                font-size: 10px;
             }
             section .container .card .right h3 {
-                font-size: 12px;
+                font-size: 10px;
             }
                         section .container .card .left img{
-                            height: 30vh;
+                            height: 25vh;
                         }
 }
 

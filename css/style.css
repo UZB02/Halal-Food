@@ -141,7 +141,18 @@ a:focus {
   top: 300px;
   /* left: 10px; */
   right: 10px;
+ 
 }
+
+@keyframes animLocation {
+  0%{
+    transform: rotate(5deg);
+  }
+  100%{
+    transform: rotate(-5deg);
+  }
+}
+
 .nav_location .nav_location_icon:nth-child(2){
   color: #fff;
   fill: rgba(8, 169, 8, 0.749);
@@ -157,6 +168,7 @@ a:focus {
   /* left: 10px; */
   right: 10px;
   transition: all .5s linear;
+    animation: animLocation .5s linear infinite alternate;
 }
 .nav_location .nav_location_icon .info_div{
 background-color: #0c0c0c8b;

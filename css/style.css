@@ -672,7 +672,9 @@ transition: all .5s linear;
   background-color: #ffe537;
   color: #000000;
 }
-
+.news_section{
+  padding: 50px 0;
+}
 .news_section .box {
   text-align: center;
   margin-top: 45px;

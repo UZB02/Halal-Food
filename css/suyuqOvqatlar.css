@@ -19,7 +19,7 @@ section .container {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   padding: 20px 0;
 }
 section .container .card {
@@ -169,7 +169,7 @@ section .container .card .right h3 {
     font-size: 40px;
   }
   section .container .card {
-    width: 40%;
+    width: 47%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }

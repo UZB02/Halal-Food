@@ -64,11 +64,12 @@ $(".slider_container").slick({
 
 function viwInfo (){
     document.querySelector(".info_div").classList.toggle("active_info");
+    
 }
 // function viwInfo2 (){
 //     document.querySelector(".info_div2").classList.toggle("active_info");
 // }
 function redirectToPhoneNumber() {
-  const phoneNumber = "010 7599 0850";
+  const phoneNumber = "+821075990850";
   window.location.href = `tel:${phoneNumber}`;
 }

@@ -79,7 +79,7 @@ section .container .card .right h3 {
   }
 
   section .container .card {
-    width: 40%;
+    width: 48%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }
@@ -107,21 +107,21 @@ section .container .card .right h3 {
   }
 
   section .container .card {
-    width: 40%;
+    width: 48%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }
 
   section .container .card .right h1 {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   section .container .card .right h2 {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   section .container .card .right h3 {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   section .container .card .left img {
@@ -139,7 +139,7 @@ section .container .card .right h3 {
   }
 
   section .container .card {
-    width: 40%;
+    width: 48%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }

@@ -35,7 +35,7 @@ section .container .card .left {
 
 section .container .card .left img {
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   border-radius: 14px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;

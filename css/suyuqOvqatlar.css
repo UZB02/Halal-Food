@@ -1,248 +1,253 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.title h1{
-    font-size: 60px;
-font-family: "bodoni svtytwo sc itc tt book", sans-serif;
+.title h1 {
+  font-size: 60px;
+  font-family: "bodoni svtytwo sc itc tt book", sans-serif;
 }
-section{
-    width: 100%;
+section {
+  width: 100%;
 }
 section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
 }
-section .container .card{
+section .container .card {
+  width: 40%;
+  border-radius: 15px;
+  border: 1px gainsboro solid;
+  background-color: black;
+}
+
+section .container .card .left {
+  /* border-bottom: 1px solid gainsboro; */
+}
+
+section .container .card .left img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 14px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 2px solid gainsboro;
+}
+
+section .container .card .right {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  color: #fff;
+}
+section .container .card .right h1 {
+  font-size: 26px;
+}
+section .container .card .right h2 {
+  font-size: 20px;
+}
+section .container .card .right h3 {
+  font-size: 26px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1120px) {
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+
+  section .container .card {
     width: 40%;
     border-radius: 15px;
     border: 1px gainsboro solid;
-    background-color: black;
-}
+  }
 
-section .container .card .left{
-    /* border-bottom: 1px solid gainsboro; */
-}
+  section .container .card .right h1 {
+    font-size: 15px;
+  }
 
-section .container .card .left img{
-    width: 100%;
-    height: 40vh;
-    border-radius: 14px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-bottom: 2px solid gainsboro;
-}
+  section .container .card .right h2 {
+    font-size: 15px;
+  }
 
-section .container .card .right{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    justify-content: space-between;
-    background-color: black;
-    border-radius: 15px;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    color: #fff;
-}
-section .container .card .right h1{
-    font-size: 26px;
-}
-section .container .card .right h2{
-    font-size: 20px;
-}
-section .container .card .right h3{
-    font-size: 26px;
-}
-
-@media (max-width: 1200px) {}
-
-@media (max-width: 1120px) {}
-
-@media (max-width: 991px) {
-    .container {
-            width: 100%;
-        }
-    
-        .title h1 {
-            font-size: 40px;
-        }
-    
-        section .container .card {
-            width: 40%;
-            border-radius: 15px;
-            border: 1px gainsboro solid;
-        }
-    
-        section .container .card .right h1 {
-            font-size: 15px;
-        }
-    
-        section .container .card .right h2 {
-            font-size: 15px;
-        }
-    
-        section .container .card .right h3 {
-            font-size: 15px;
-        }
-    
-       
+  section .container .card .right h3 {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 767px) {
-    .container {
-            width: 100%;
-        }
-    
-        .title h1 {
-            font-size: 40px;
-        }
-    
-        section .container .card {
-            width: 40%;
-            border-radius: 15px;
-            border: 1px gainsboro solid;
-        }
-    
-        section .container .card .right h1 {
-            font-size: 12px;
-        }
-    
-        section .container .card .right h2 {
-            font-size: 12px;
-        }
-    
-        section .container .card .right h3 {
-            font-size: 12px;
-        }
-    
-        section .container .card .left img {
-            height: 35vh;
-        }
+  .container {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+
+  section .container .card {
+    width: 40%;
+    border-radius: 15px;
+    border: 1px gainsboro solid;
+  }
+
+  section .container .card .right h1 {
+    font-size: 12px;
+  }
+
+  section .container .card .right h2 {
+    font-size: 12px;
+  }
+
+  section .container .card .right h3 {
+    font-size: 12px;
+  }
+
+  section .container .card .left img {
+    height: 35vh;
+  }
 }
 
 @media (max-width: 576px) {
-        .container {
-                width: 100%;
-            }
-        
-            .title h1 {
-                font-size: 40px;
-            }
-        
-            section .container .card {
-                width: 40%;
-                border-radius: 15px;
-                border: 1px gainsboro solid;
-            }
-        
-            section .container .card .right h1 {
-                font-size: 12px;
-            }
-        
-            section .container .card .right h2 {
-                font-size: 12px;
-            }
-        
-            section .container .card .right h3 {
-                font-size: 12px;
-            }
-                         section .container .card .left img {
-                             height: 35vh;
-                         }
+  .container {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+
+  section .container .card {
+    width: 40%;
+    border-radius: 15px;
+    border: 1px gainsboro solid;
+  }
+
+  section .container .card .right h1 {
+    font-size: 12px;
+  }
+
+  section .container .card .right h2 {
+    font-size: 12px;
+  }
+
+  section .container .card .right h3 {
+    font-size: 12px;
+  }
+  section .container .card .left img {
+    height: 35vh;
+  }
 }
 
 @media (max-width: 480px) {
-        .container {
-                width: 100%;
-            }
-        
-            .title h1 {
-                font-size: 40px;
-            }
-            section .container .card {
-                width: 40%;
-                border-radius: 15px;
-                border: 1px gainsboro solid;
-            }
-        
-            section .container .card .right h1 {
-                font-size: 10px;
-            }
-        
-            section .container .card .right h2 {
-                font-size: 10px;
-            }
-            section .container .card .right h3 {
-                font-size: 10px;
-            }
-                        section .container .card .left img{
-                            height: 25vh;
-                        }
+  .container {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+  section .container .card {
+    width: 40%;
+    border-radius: 15px;
+    border: 1px gainsboro solid;
+  }
+
+  section .container .card .right h1 {
+    font-size: 10px;
+  }
+
+  section .container .card .right h2 {
+    font-size: 10px;
+  }
+  section .container .card .right h3 {
+    font-size: 10px;
+  }
+  section .container .card .left img {
+    height: 26vh;
+  }
 }
 
 @media (max-width: 420px) {
-    .container {
-            width: 100%;
-        }
-    
-        .title h1 {
-            font-size: 40px;
-        }
-    
-        section .container {
-            flex-direction: column;
-        }
-    
-        section .container .card {
-            width: 90%;
-            border-radius: 15px;
-            border: 1px gainsboro solid;
-        }
-    
-        section .container .card .right h1 {
-            font-size: 15px;
-        }
-    
-        section .container .card .right h2 {
-            font-size: 15px;
-        }
+  .container {
+    width: 100%;
+  }
 
+  .title h1 {
+    font-size: 40px;
+  }
+
+  section .container {
+    flex-direction: column;
+  }
+
+  section .container .card {
+    width: 90%;
+    border-radius: 15px;
+    border: 1px gainsboro solid;
+  }
+
+  section .container .card .right h1 {
+    font-size: 15px;
+  }
+
+  section .container .card .right h2 {
+    font-size: 15px;
+  }
+  section .container .card .left img {
+    height: 30vh;
+  }
 }
 
 @media (max-width: 376px) {
-    .container{
-        width: 100%;
-    }
-        .title h1 {
-            font-size: 40px;
-        }
-        section .container {
-            flex-direction: column;
-        }
-                section .container .card {
-                    width: 90%;
-                    border-radius: 15px;
-                    border: 1px gainsboro solid;
-                }
-                                section .container .card .right h1{
-                                    font-size: 15px;
-                                }
-                                section .container .card .right h2{
-                                    font-size: 15px;
-                                }
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  section .container {
+    flex-direction: column;
+  }
+  section .container .card {
+    width: 90%;
+    border-radius: 15px;
+    border: 1px gainsboro solid;
+  }
+  section .container .card .right h1 {
+    font-size: 15px;
+  }
+  section .container .card .right h2 {
+    font-size: 15px;
+  }
+  section .container .card .left img {
+    height: 30vh;
+  }
 }
 
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
+  .container {
+    max-width: 1170px;
+  }
 }

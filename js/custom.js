@@ -62,9 +62,9 @@ $(".slider_container").slick({
     ]
 });
 
-function viwInfo (){
-    document.querySelector(".info_div").classList.toggle("active_info");
-}
+// function viwInfo (){
+//     document.querySelector(".info_div").classList.toggle("active_info");
+// }
 // function viwInfo2 (){
 //     document.querySelector(".info_div2").classList.toggle("active_info");
 // }

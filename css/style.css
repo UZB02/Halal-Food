@@ -128,20 +128,13 @@ a:focus {
 }
 
 .nav_location .nav_location_icon:nth-child(1){
-  color: #fff;
-  fill: rgba(255, 0, 0, 0.676);
   display: flex;
   cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
-  gap: 10px;
   position: fixed;
   z-index: 9999;
   top: 300px;
-  /* left: 10px; */
   right: 10px;
- 
+ fill: red;
 }
 
 @keyframes animLocation {
@@ -154,14 +147,8 @@ a:focus {
 }
 
 .nav_location .nav_location_icon:nth-child(2){
-  color: #fff;
   fill: rgba(9, 219, 9, 0.749);
-  display: flex;
   cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
-  gap: 10px;
   position: fixed;
   z-index: 9999;
   top: 350px;

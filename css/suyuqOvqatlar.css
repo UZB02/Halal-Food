@@ -29,9 +29,6 @@ section .container .card {
   background-color: black;
 }
 
-section .container .card .left {
-  /* border-bottom: 1px solid gainsboro; */
-}
 
 section .container .card .left img {
   width: 100%;
@@ -94,6 +91,9 @@ section .container .card .right h3 {
 
   section .container .card .right h3 {
     font-size: 15px;
+  }
+    section .container .card .left img {
+    height: 35vh;
   }
 }
 

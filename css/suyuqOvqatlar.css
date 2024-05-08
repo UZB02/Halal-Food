@@ -76,7 +76,7 @@ section .container .card .right h3 {
   }
 
   section .container .card {
-    width: 48%;
+    width: 40%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }
@@ -97,6 +97,37 @@ section .container .card .right h3 {
   }
 }
 
+@media (max-width: 850px) {
+  .container {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+
+  section .container .card {
+    width: 40%;
+    border-radius: 15px;
+    border: 1px gainsboro solid;
+  }
+
+  section .container .card .right h1 {
+    font-size: 15px;
+  }
+
+  section .container .card .right h2 {
+    font-size: 15px;
+  }
+
+  section .container .card .right h3 {
+    font-size: 15px;
+  }
+
+  section .container .card .left img {
+    height: 35vh;
+  }
+}
 @media (max-width: 767px) {
   .container {
     width: 100%;
@@ -107,7 +138,7 @@ section .container .card .right h3 {
   }
 
   section .container .card {
-    width: 48%;
+    width: 40%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }
@@ -175,14 +206,14 @@ section .container .card .right h3 {
   }
 
   section .container .card .right h1 {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   section .container .card .right h2 {
-    font-size: 13px;
+    font-size: 10px;
   }
   section .container .card .right h3 {
-    font-size: 13px;
+    font-size: 10px;
   }
   section .container .card .left img {
     height: 26vh;
@@ -204,7 +235,7 @@ section .container .card .right h3 {
 
   section .container .card {
     width: 70%;
-    border-radius: 15px;
+    border-radius: 15px;  
     border: 1px gainsboro solid;
   }
 
@@ -234,7 +265,7 @@ section .container .card .right h3 {
     flex-direction: column;
   }
   section .container .card {
-    width: 90%;
+    width: 80%;
     border-radius: 15px;
     border: 1px gainsboro solid;
   }

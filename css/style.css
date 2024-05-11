@@ -132,12 +132,22 @@ a:focus {
   cursor: pointer;
   position: fixed;
   z-index: 9999;
-  top: 300px;
+  top: 400px;
   right: 10px;
- fill: red;
+  filter: drop-shadow(0 0 5px red);
+  fill: red;
+  animation: animLocation .5s linear infinite alternate;
+}
+@keyframes animLocation {
+  0%{
+     filter: drop-shadow(0 0 1px red);
+  }
+  100%{
+  filter: none;
+  }
 }
 
-@keyframes animLocation {
+@keyframes animFone {
   0%{
     transform: rotate(5deg);
   }
@@ -146,16 +156,17 @@ a:focus {
   }
 }
 
+
 .nav_location .nav_location_icon:nth-child(2){
   fill: rgba(9, 219, 9, 0.749);
   cursor: pointer;
   position: fixed;
   z-index: 9999;
-  top: 350px;
+  top: 450px;
   /* left: 10px; */
   right: 10px;
   transition: all .5s linear;
-    animation: animLocation .5s linear infinite alternate;
+    animation: animFone .5s linear infinite alternate;
 }
 .nav_location .nav_location_icon .info_div{
 background-color: #0c0c0c8b;

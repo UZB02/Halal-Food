@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
   background-image: url(../images/body-bg.jpg);
   background-size: cover;
+  object-fit: cover;
+}
+section{
+  padding-bottom: 50px;
 }
 
 .layout_padding {

@@ -442,9 +442,10 @@ transition: all .5s linear;
 
 .slider_section .slider_container .img-box img {
   width: 100%;
+  height: 250px;
   /* border: 10px solid #1a1a19; */
   border-radius: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .slider_section .slider_container .slick-active .img-box {

@@ -7,6 +7,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+header{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
 .title h1 {
   font-size: 60px;
   font-family: "bodoni svtytwo sc itc tt book", sans-serif;
@@ -26,7 +29,7 @@ section .container .card {
   width: 28%;
   border-radius: 15px;
   border: 1px gainsboro solid;
-  background-color: rgba(172, 255, 47, 0.781);
+  /* background-color: rgba(172, 255, 47, 0.781); */
 }
 
 
@@ -36,7 +39,7 @@ section .container .card .left img {
   border-radius: 14px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  border-bottom: 2px solid gainsboro;
+  /* border-bottom: 2px solid gainsboro; */
 }
 
 section .container .card .right {
@@ -44,10 +47,12 @@ section .container .card .right {
   align-items: center;
   padding: 5px;
   justify-content: space-between;
-  background-color: rgba(172, 255, 47, 0.781);
+  /* background-color: rgba(172, 255, 47, 0.781); */
   border-radius: 15px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  background-color: white;
+  box-shadow: 0 0 1px 0;
   color: #000;
 }
 section .container .card .right h1 {

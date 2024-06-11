@@ -997,30 +997,5 @@ transition: all .5s linear;
 .active_info {
   display: block !important; 
 }
-@media screen and (max-width: 500px) {
-  .location_section{
-  padding-bottom: 50px;
-}
-  .slider_section .slider_container .img-box img {
-  width: 190px;
-  height: 190px;
-  margin: 0 200px;
-  /* border: 10px solid #1a1a19; */
-  border-radius: 100%;
-  /* object-fit: cover; */
-}
-}
-@media screen and (max-width: 800px) {
-    .location_section{
-  padding-bottom: 50px;
-}
-  .slider_section .slider_container .img-box img {
-  width: 150px;
-  height: 150px;
-  margin: 0 200px;
-  /* border: 10px solid #1a1a19; */
-  border-radius: 100%;
-  /* object-fit: cover; */
-}
-}
+
 /*# sourceMappingURL=style.css.map */
